@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    //$( "#datepicker" ).datepicker();
+  });
+  </script>
+ <!-- jQuery CDN link....  
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	 -->
+		<meta charset="UTF-8">	
+		<title>HTML5: Week One</title>  
+		<!-- link to an external style sheet (best practice with style sheet)-->
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body class="page"><!-- everything that is visual goes in the body tag  -->
+		<header>
+			<!-- the "banner" area or title of the page-->
+			<h1>HTML5: Week One</h1> <!-- only h1 per page (for SEO purposes) --> 	
+		</header>
+		<nav class="nav1"> 
+			<ul>
+				<!-- these links are relative paths -->
+				<li> <a href="#">home</a></li>
+				<li> <a href="#">gallery</a></li>
+				<li> <a href="sign-up.html">Sign Up Here</a></li>
+				<li> <a href="#">Mobile Site</a></li>
+				<li> <a href="http://www.google.com">Google</a></li>
+			</ul>
+		</nav>
+		<div id="mainContent">
+            <h3>If you want to connect with the community and post content, please create an account.</h3>
+			<!-- A Simple Form    -->
+          
+          <form id="sign-up-form" method="post" action="#">
+              <fieldset>
+                  <h2>Create an Account</h2>
+                  <ul>
+                    
+                    <li>
+                      <label id="f-name-label">First Name</label>
+                      <input type="text" name="first-name" placeholder="First Name">
+                    </li>
+                    
+                    <li>
+                      <label id="l-name-label">Last Name</label>
+                      <input type="text" name="last-name" placeholder="Last Name">
+                    </li>
+                    
+                    <li>
+                        <label>Year Of Birth</label>
+                        <select name="year">
+                          <option value="1970">1970</option>
+                          <option value="1971">1971</option>
+                          <option value="1972">1972</option>
+                          <option value="1973">1973</option>
+
+                        </select>
+                    </li>
+                    
+                    <li>
+                        <label>Month Of Birth</label>
+                        <select name="day">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+
+                        </select>
+                    </li>
+                    <li>
+                        <label>Day Of Birth</label>
+                        <select name="day">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+
+                        </select>
+                    </li>
+                    
+                    <li>
+                      <labe>Please enter a valid email</labe>
+                      <input type="email" name="email" placeholder="Email" />
+                    </li>
+                    <li>
+                      <labe>Enter Donation Amount</labe>
+                      <input type="number" value="100" min="1" max="101"/>
+                    </li>
+                    <li>
+                      <label>Enter Zip Code</label>
+                      <input type="text" placeholder="90210" pattern="[0-9]*" required />
+                    </li>
+                    <li>
+                      <label>Preferred Phone Number</label>
+                      <input type="tel" placeholder="555-555-5555" required />
+                    </li>
+                    <li>
+                      <label>Favorite Disney Character</label>
+                      <input type="text" placeholder="Enter Disney Character" required />
+                    </li>
+                    <li>
+                      <label>Favorite Inspirational Quote</label>
+                      <textarea placeholder="If Plan A did not work, the alphabet has 25 more letters. Stay Cool!" maxlength="200" minlength="5" required></textarea>
+                    </li>
+                </ul>
+                
+                <input type="submit" name="submit" value="Sign Up" />
+
+              </fieldset>
+
+          
+          
+          </form>
+		
+            
+            	
+
+        </div><!-- closing maincContent div tag -->
+		
+		
+        <!--  This is the footer section, only footer stuff -->
+		<footer>
+			<p>&copy; copyright 2015</p>
+			
+		</footer>
+
+	</body>
+</html>
